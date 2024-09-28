@@ -47,7 +47,6 @@ education:
   - area: IT Intelligence Information Engineering
     institution: Jeonbuk national university
     date_start: 2022-03-01 ~
-    date_end: 
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
