@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 류하영
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ryu ha young
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: ha young
+last_name: ryu
 
 # Status emoji
 status:
