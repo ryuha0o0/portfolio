@@ -104,7 +104,7 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: fashion enthusiast
         description: ''
         percent: 60
         icon: person-simple-walk
@@ -118,11 +118,11 @@ skills:
         icon: camera
 
 languages:
-  - name: English
+  - name: Korean
     percent: 100
-  - name: Chinese
+  - name: English
     percent: 75
-  - name: Portuguese
+  - name: Japanese
     percent: 25
 
 # Awards.

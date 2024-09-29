@@ -16,13 +16,13 @@ main:
     url: /#talks
     weight: 12
 
-  - name: News
+  - name: Post
     url: /#news
     identifier: news
     weight: 13
-  - name: conference-paper
+  - name: get-started
     parent: news
-    url: /publication/conference-paper
+    url: /post/get-started
     weight: 14
 
   - name: Experience
