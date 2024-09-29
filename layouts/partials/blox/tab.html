@@ -1,0 +1,67 @@
+<div class="tab-container">
+    <div class="tab-buttons">
+        {{ range $index, $tab := .tabs }}
+        <button class="tab-button" data-index="{{ $index }}">{{ $tab.title }}</button>
+        {{ end }}
+    </div>
+    <div class="tab-contents">
+        {{ range $index, $tab := .tabs }}
+        <div class="tab-content" data-index="{{ $index }}">
+            {{ $tab.content | markdownify }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const buttons = document.querySelectorAll('.tab-button');
+        const contents = document.querySelectorAll('.tab-content');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', function () {
+                const index = this.getAttribute('data-index');
+
+                buttons.forEach(btn => btn.classList.remove('active'));
+                contents.forEach(content => content.classList.remove('active'));
+
+                this.classList.add('active');
+                document.querySelector(`.tab-content[data-index="${index}"]`).classList.add('active');
+            });
+        });
+
+        // 첫 번째 탭을 기본으로 활성화
+        buttons[0].classList.add('active');
+        contents[0].classList.add('active');
+    });
+</script>
+<style>
+    .tab-container {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .tab-buttons {
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .tab-content {
+    display: none;
+    }
+
+    .tab-content.active {
+    display: block;
+    }
+
+    .tab-button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    }
+
+    .tab-button.active {
+    background-color: #333;
+    color: white;
+    }
+</style>
