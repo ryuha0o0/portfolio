@@ -21,6 +21,7 @@ main:
     weight: 20
   - name: Projects
     url: projects
+    weight: 30
     children:
       - name: NORTH
         url: projects/NORTH/
@@ -28,5 +29,3 @@ main:
       - name: project 2
         url: projects/subproject2/
         weight: 32
-    weight: 30
-
