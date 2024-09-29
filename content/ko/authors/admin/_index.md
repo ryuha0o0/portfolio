@@ -25,7 +25,7 @@ role: 전북대학교 학생
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Jeonbuk national university
+  - name: 전북대학교
     url: https://www.jbnu.ac.kr/kor/
 
 # Social network links
@@ -46,16 +46,16 @@ profiles:
     url: https://github.com/ryuha0o0
 
 interests:
-  - Information security
-  - Web Service
-  - Computer network
+  - 정보 보안학
+  - 웹 개발
+  - 컴퓨터 네트워크
 
 education:
-  - area: IT Intelligence Information Engineering
-    institution: Jeonbuk national university
+  - area: IT지능정보공학과
+    institution: 전북대학교
     date_start: 2022-03-01
     summary: |
-      In order to systematically and efficiently educate students who will work in the future intelligent information society and hyperconnected society while actively responding to AI and new technology needs, our department aims to cultivate 5C-GIANT global digital talents based on demand for industries with problem-solving capabilities in the future technology-oriented manner.
+      우리 학부는 AI 및 신기술 요구에 적극 대응하면서 미래 지능정보사회 및 초연결 사회에 종사할 학생들에게 요구되는 지식을 체계적이고 효율적으로 교육하기 위하여 교육 목표를 "미래기술지향적으로 문제해결역량을 갖춘 산업체 수요 기반 5C-GIANT형 글로벌 디지털 인재 양성 "에 두고 있습니다.
     button:
       text: 'Introduction to the department'
       url: 'https://csai.jbnu.ac.kr/csai/index.do'
@@ -86,7 +86,7 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: 스킬
     items:
       - name: Python
         description: ''
@@ -100,7 +100,7 @@ skills:
         description: ''
         percent: 40
         icon: circle-stack
-  - name: Hobbies
+  - name: 취미
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
@@ -159,4 +159,4 @@ awards:
 
 ## About Me
 
-My name is Ryu Ha-young. I am currently studying in the IT Intelligence Information Department at Chonbuk National University, and I am interested in web services, cloud computing, and web security. I want to study hard and become a person who contributes to the information security industry in the future.
+제 이름은 류하영입니다. 저는 현재 전북대학교의 IT지능정보학과에 재학중이며, 웹 서비스와 클라우드 컴퓨팅, 그리고 웹 보안에 관심이 있습니다. 열심히 공부해서 장래에는 정보보안 산업에 일조하는 인물이 되고 싶습니다.

@@ -20,6 +20,39 @@ ko:
     description: Site description in korean...
   menu:
     main:
-      - name: 한국어
-        url: '#about'
-        weight: 1
+      - name: Bio
+        url: /
+        weight: 10
+
+      - name: 기사
+        url: /#papers
+        weight: 11
+
+      - name: Talks
+        url: /#talks
+        weight: 12
+
+      - name: 뉴스
+        url: /#news
+        identifier: news
+        weight: 13
+      - name: conference-paper
+        parent: news
+        url: /publication/conference-paper
+        weight: 14
+
+      - name: 활동경력
+        url: experience/
+        weight: 20
+
+      - name: 프로젝트
+        identifier: tags
+        weight: 30
+      - name: NORTH
+        parent: tags
+        url: project/north/
+        weight: 31
+
+      - name: Teaching
+        url: teaching/
+        weight: 40
