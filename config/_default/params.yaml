@@ -63,3 +63,8 @@ features:
     provider: 'mapnik'
     api_key: ''
     zoom: 15
+    content:
+      contact:
+        college:
+          latitude: '37.4275'
+          longitude: '-122.1697'
