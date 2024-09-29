@@ -9,6 +9,15 @@ tags:
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
+features:
+    map:
+        provider: 'mapnik'
+        api_key: ''
+        zoom: 15
+    content:
+        coordinates:
+            latitude: '37.4275'
+            longitude: '-122.1697'
 
 [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
 
