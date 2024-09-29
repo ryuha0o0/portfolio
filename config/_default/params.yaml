@@ -36,7 +36,7 @@ header:
     show_theme_chooser: true
     logo:
       text: ""
-      filename: "logo.png"
+      filename: "file.png"
 
 # Site footer
 footer:
