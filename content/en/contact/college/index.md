@@ -1,28 +1,20 @@
 ---
-title: Learn JavaScript
-summary: Easily learn JavaScript in 10 minutes!
-date: 2023-10-24
-coordinates:
-  latitude: '35.846852'  # 전북대학교의 위도
-  longitude: '127.129569' # 전북대학교의 경도
-type: docs
-math: false
-tags:
-  - JavaScript
-image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+title: Contact
+date: 2024-09-30
+
+type: landing
+
+sections:
+  - block: contact
+    content:
+      title: Contact
+      coordinates:
+        latitude: '37.4275'
+        longitude: '-122.1697'
+      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
 ---
 
 [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
-
-### Example 1: Custom map center
-
-```yaml
-params:
-  hugo-maps:
-    new_york_map:
-        center: [-74.005833, 40.712778]
-```
 
 {{< map name="new_york_map" >}}
 
