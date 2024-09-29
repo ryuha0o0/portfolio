@@ -17,7 +17,7 @@ image:
 
 ### Access Map
 
-{{< map >}}
+{{< map latitude="35.846852" longitude="127.129569" >}}
 
 **Embed videos, podcasts, code, LaTeX math, and even test students!**
 
