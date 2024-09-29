@@ -28,8 +28,6 @@ features:
       latitude: '37.4275'  # 위도
       longitude: '-122.1697'  # 경도
 
-{{< map provider="mapnik" latitude="37.4275" longitude="-122.1697" zoom="15" >}}
-
 On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
 
 ## Video
