@@ -41,13 +41,5 @@ main:
     weight: 31
 
   - name: Contact
-    identifier: contact
+    url: contact/
     weight: 40
-  - name: college
-    parent: contact
-    url: contact/college/
-    weight: 41
-  - name: me
-    parent: contact
-    url: contact/me/
-    weight: 42
