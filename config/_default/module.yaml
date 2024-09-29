@@ -3,10 +3,10 @@
 ## Install or uninstall themes and plugins here.
 ## Docs: https://gohugo.io/hugo-modules/
 ############################
-
 imports:
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
+  - path: github.com/marcpabst/hugo-maps
 
 # Install any Hugo Blox within the `hugo-blox/blox/` folder
 mounts:
