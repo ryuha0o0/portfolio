@@ -25,7 +25,7 @@ ko:
         weight: 10
 
       - name: 기사
-        url: /#papers
+        url: ko/portfolio/#papers
         weight: 11
 
       - name: Talks
