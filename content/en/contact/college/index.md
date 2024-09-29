@@ -14,19 +14,11 @@ image:
 
 **Embed videos, podcasts, code, LaTeX math, and even test students!**
 
-## Embedded Map
-Below is a map of Stanford University:
-
-features:
-  map:
-    provider: 'mapnik'  # 'google', 'mapbox', or 'mapnik' 등 선택 가능
-    api_key: ''         # 필요한 경우 API 키 추가
-    zoom: 15
-
-  content:
-    coordinates:
-      latitude: '37.4275'  # 위도
-      longitude: '-122.1697'  # 경도
+## Map
+content:
+  coordinates:
+    latitude: '37.4275'
+    longitude: '-122.1697'
 
 On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
 
