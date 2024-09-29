@@ -21,7 +21,7 @@ ko:
   menu:
     main:
       - name: Bio
-        url: /
+        url: ko/
         weight: 10
 
       - name: 기사
@@ -29,11 +29,11 @@ ko:
         weight: 11
 
       - name: Talks
-        url: /#talks
+        url: ko/#talks
         weight: 12
 
       - name: 뉴스
-        url: /#news
+        url: ko/#news
         identifier: news
         weight: 13
       - name: conference-paper
