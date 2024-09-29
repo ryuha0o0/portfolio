@@ -20,6 +20,7 @@ main:
     url: experience/
     weight: 20
   - name: Projects
+    url: projects
     children:
       - name: NORTH
         url: projects/NORTH/
