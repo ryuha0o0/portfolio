@@ -15,9 +15,16 @@ image:
 
 [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
 
-### Access Map
+### Example 1: Custom map center
 
-{{< map name="my_map" height="350px" >}}
+```yaml
+params:
+  hugo-maps:
+    new_york_map:
+        center: [-74.005833, 40.712778]
+```
+
+{{< map name="new_york_map" >}}
 
 **Embed videos, podcasts, code, LaTeX math, and even test students!**
 
