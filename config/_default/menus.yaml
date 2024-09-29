@@ -24,7 +24,7 @@ main:
     weight: 30
   - name: NORTH
     parent: tags
-    url: projects/NORTH/
+    url: project/NORTH/
     weight: 31
   - name: Teaching
     url: teaching/
