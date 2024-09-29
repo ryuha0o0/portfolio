@@ -5,7 +5,7 @@ title: Contact
 type: landing
 
 sections:
-  - block: college
+  - block: contact
     content:
       title: Contact
       text: |-
