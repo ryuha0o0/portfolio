@@ -5,6 +5,7 @@ title: 류하영
 # Name pronunciation (optional)
 name_pronunciation: ryu ha young
 
+
 # Full name (for SEO)
 first_name: ha young
 last_name: ryu
@@ -31,11 +32,17 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
+    color: '#eeac02'
+    color_border: '#f0bf23'
     url: 'mailto:iq1564@jbnu.ac.kr'
     label: E-mail Me
   - icon: brands/instagram
+    color: '#eeac02'
+    color_border: '#f0bf23'
     url: https://www.instagram.com/ha.0_1114/
   - icon: brands/github
+    color: '#eeac02'
+    color_border: '#f0bf23'
     url: https://github.com/ryuha0o0
 
 interests:
@@ -175,4 +182,3 @@ awards:
 ## About Me
 
 Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-<link rel="stylesheet" href="/css/custom.css">
