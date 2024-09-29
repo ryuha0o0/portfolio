@@ -33,12 +33,11 @@ ko:
         weight: 12
 
       - name: 뉴스
-        url: ko/#news
         identifier: news
         weight: 13
       - name: conference-paper
         parent: news
-        url: /publication/conference-paper
+        url: publication/conference-paper
         weight: 14
 
       - name: 활동경력
