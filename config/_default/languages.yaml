@@ -21,28 +21,28 @@ ko:
   menu:
     main:
       - name: Bio
-        url: ko/portfolio/
+        url: /
         weight: 10
 
       - name: 기사
-        url: /ko/portfolio/#papers
+        url: /#papers
         weight: 11
 
       - name: Talks
-        url: /ko/portfolio/#talks
+        url: /#talks
         weight: 12
 
       - name: 뉴스
-        url: /ko/portfolio/#news
+        url: /#news
         identifier: news
         weight: 13
       - name: conference-paper
         parent: news
-        url: /ko/portfolio/publication/conference-paper
+        url: /publication/conference-paper
         weight: 14
 
       - name: 활동경력
-        url: ko/portfolio/experience/
+        url: experience/
         weight: 20
 
       - name: 프로젝트
@@ -50,9 +50,9 @@ ko:
         weight: 30
       - name: NORTH
         parent: tags
-        url: ko/portfolio/project/north/
+        url: project/north/
         weight: 31
 
       - name: Teaching
-        url: ko/portfolio/teaching/
+        url: teaching/
         weight: 40
