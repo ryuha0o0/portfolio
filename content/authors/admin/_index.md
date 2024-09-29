@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/css/custom.css">
 ---
 # Display name
 title: 류하영
