@@ -25,11 +25,11 @@ main:
     weight: 13
   - name: Web Security
     parent: news
-    url: /post/web-security
+    url: /post/web-security/
     weight: 14
   - name: Web dev
     parent: news
-    url: /post/web-dev
+    url: /post/web-dev/
     weight: 15
 
   - name: Projects
@@ -45,9 +45,9 @@ main:
     weight: 40
   - name: college
     parent: contact
-    url: contact/college
+    url: contact/college/
     weight: 41
   - name: me
     parent: contact
-    url: contact/me
+    url: contact/me/
     weight: 42
