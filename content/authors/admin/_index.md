@@ -55,32 +55,10 @@ education:
     institution: Jeonbuk national university
     date_start: 2022-03-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      In order to systematically and efficiently educate students who will work in the future intelligent information society and hyperconnected society while actively responding to AI and new technology needs, our department aims to cultivate 5C-GIANT global digital talents based on demand for industries with problem-solving capabilities in the future technology-oriented manner.
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: 'Introduction to the department'
+      url: 'https://csai.jbnu.ac.kr/csai/index.do'
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -181,4 +159,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My name is Ryu Ha-young. I am currently studying in the IT Intelligence Information Department at Chonbuk National University, and I am interested in web services, cloud computing, and web security. I want to study hard and become a person who contributes to the information security industry in the future.
