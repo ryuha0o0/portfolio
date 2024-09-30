@@ -21,7 +21,7 @@ main:
     weight: 12
 
   - name: My post
-    url: /#post
+    url: /#news
     weight: 13
 
 
