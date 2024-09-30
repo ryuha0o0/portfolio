@@ -49,7 +49,7 @@ tags:
 
 - **Connectionless**: 하나의 요청에 하나의 응답을 한 후 연결을 종료하는 것을 의미합니다.
 - **Stateless**: 통신이 끝난 후 상태 정보를 저장하지 않는 것을 의미합니다.
-- **쿠키 (Cookie)**: HTTP에서 상태를 유지하기 위해 사용하는 Key-Value 형태의 값
+- **쿠키 (Cookie)**: HTTP에서 상태를 유지하기 위해 사용하는 Key-Value 형태의 값
 - **세션 (Session)**: 쿠키에 포함된 Session ID를 사용해 서버에 저장된 세션 데이터에 접근하는 방식
 - **세션 하이재킹 (Session Hijacking)**: 타 이용자의 쿠키를 훔쳐 인증 정보를 획득하는 공격
 
@@ -88,6 +88,6 @@ tags:
 
 ### JSON with Padding (JSONP)
 
-JSONP는 SOP에 구애 받지 않고 외부 출처에 대한 접근을 허용하는 <script> 태그로 Cross Origin의 데이터를 불러온다 하지만 <script> 태그 내에서는 데이터를 자바 스크립트의 코드로 인식하기 때문에 Callback 함수를 사용해야 한다. Cross Origin에 요청할 때 callback 파라미터에 어떤 함수로 받아오는 데이터를 핸들링할지 넘겨주면, 대상 서버는 전달된 callback으로 데이터를 감싸 응답한다.
+JSONP는 SOP에 구애 받지 않고 외부 출처에 대한 접근을 허용하는 < script > 태그로 Cross Origin의 데이터를 불러온다 하지만 <script> 태그 내에서는 데이터를 자바 스크립트의 코드로 인식하기 때문에 Callback 함수를 사용해야 한다. Cross Origin에 요청할 때 callback 파라미터에 어떤 함수로 받아오는 데이터를 핸들링할지 넘겨주면, 대상 서버는 전달된 callback으로 데이터를 감싸 응답한다.
 
 ** you can see my past posts in my velog https://velog.io/@iq1564/posts
