@@ -88,11 +88,11 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: Security
         description: ''
-        percent: 80
+        percent: 50
         icon: code-bracket
-      - name: Data Science
+      - name: Web develop
         description: ''
         percent: 100
         icon: chart-bar
@@ -110,11 +110,11 @@ skills:
         icon: person-simple-walk
       - name: Cats
         description: ''
-        percent: 100
+        percent: 50
         icon: cat
       - name: Photography
         description: ''
-        percent: 80
+        percent: 60
         icon: camera
 
 languages:
