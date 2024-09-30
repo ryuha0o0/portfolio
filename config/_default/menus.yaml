@@ -20,17 +20,10 @@ main:
     url: /#talks
     weight: 12
 
-  - name: Post
-    identifier: news
+  - name: My post
+    url: /#post
     weight: 13
-  - name: Web Security
-    parent: news
-    url: /post/web-security/
-    weight: 14
-  - name: Web dev
-    parent: news
-    url: /post/web-dev/
-    weight: 15
+
 
   - name: Projects
     identifier: tags
