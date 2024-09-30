@@ -269,3 +269,5 @@ image-storage 문제의 목표는 파일 업로드 취약점을 통해 플래그
 ?>
 
 ```
+
+** you can see my past posts in my velog https://velog.io/@iq1564/posts

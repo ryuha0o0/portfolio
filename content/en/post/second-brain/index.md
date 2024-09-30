@@ -187,3 +187,5 @@ def ping():
 
     return render_template('ping.html')
 ```
+
+** you can see my past posts in my velog https://velog.io/@iq1564/posts
