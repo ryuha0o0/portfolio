@@ -32,6 +32,10 @@ main:
     parent: tags
     url: project/north/
     weight: 31
+  - name: bulletin
+    parent: tags
+    url: project/bulletin/
+    weight: 31
 
   - name: Contact
     url: contact/

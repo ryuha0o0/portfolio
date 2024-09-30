@@ -76,8 +76,8 @@ sections:
   - block: collection
     id: news
     content:
-      title: Recent News
-      subtitle: ''
+      title: Recent Posts
+      subtitle: 'you can see my another posts in my velog https://velog.io/@iq1564/posts'
       text: ''
       # Page type to display. E.g. post, talk, publication...
       page_type: post
