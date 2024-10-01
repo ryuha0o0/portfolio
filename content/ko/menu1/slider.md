@@ -1,8 +1,10 @@
 ---
+title: 'Your Page Title'
 widget: slider  # Use the Slider widget as this page section
 weight: 1  # Position of this section on the page
 active: true  # Publish this section?
-headless: true  # This file represents a page section.dddd
+readingTime: 2  # 이 페이지의 전체 읽기 시간을 수동으로 설정
+headless: true
 
 design:
   # Slide height is automatic unless you force a specific height (e.g. '400px')
