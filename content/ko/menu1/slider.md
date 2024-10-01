@@ -24,7 +24,7 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: file1.jpg
+        filename: file1.jpg
         fit: cover
     - title: Lunch & Learn ☕️
       content: 'Stick together!'
@@ -33,7 +33,7 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: file2.jpg
+        filename: file2.jpg
         fit: cover
     - title: World-Class Semiconductor Lab
       content: 'Just opened last month!'
@@ -42,7 +42,7 @@ content:
         position: center
         color: '#333'
         brightness: 0.5
-        media: file3.jpg
+        filename: file3.jpg
         fit: cover
       link:
         icon: graduation-cap
@@ -56,7 +56,7 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: file1.jpg
+        filename: file1.jpg
         fit: cover
     - title: 👋 Welcome to the group
       content: Take a look at what we're working on...
@@ -65,7 +65,7 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: file1.jpg
+        filename: file1.jpg
         fit: cover
     - title: 👋 Welcome to the group
       content: Take a look at what we're working on...
@@ -74,7 +74,7 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: file1.jpg
+        filename: file1.jpg
         fit: cover
     - title: 👋 Welcome to the group
       content: Take a look at what we're working on...
@@ -83,7 +83,7 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: file1.jpg
+        filename: file1.jpg
         fit: cover
     - title: 👋 Welcome to the group
       content: Take a look at what we're working on...
@@ -92,6 +92,6 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: file1.jpg
+        filename: file1.jpg
         fit: cover
 ---
