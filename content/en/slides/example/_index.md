@@ -9,10 +9,10 @@ design:
   slide_height: ''
   is_fullscreen: true
   # Automatically transition through slides?
-  loop: false
+  loop: true
   # Duration of transition between slides (in ms)
   interval: 2000
-
+-block: slider
 content:
   slides:
     - title: 👋 Welcome to the group
@@ -22,7 +22,8 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: file1.jpg
+        image:
+          filename: file1.jpg
         fit: cover
     - title: Lunch & Learn ☕️
       content: 'Share your knowledge with the group and explore exciting new topics together!'
@@ -31,7 +32,8 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: file2.jpg
+        image:
+          filename: file2.jpg
         fit: cover
     - title: World-Class Semiconductor Lab
       content: 'Just opened last month!'
@@ -40,11 +42,9 @@ content:
         position: center
         color: '#333'
         brightness: 0.5
-        media: file3.jpg
+        image:
+          filename: file3.jpg
         fit: cover
-      link:
-        icon: graduation-cap
-        icon_pack: fas
-        text: Join Us
-        url: ../contact/
+
+
 ---
