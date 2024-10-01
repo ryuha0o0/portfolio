@@ -6,7 +6,8 @@ tags: []
 categories: []
 date: '2019-02-05T00:00:00Z'
 contents:
-  slides:
+  -section:
+    slides:
     - title: "Slide 1"
       image: "file1.jpg"
       caption: "Caption for slide 1"
