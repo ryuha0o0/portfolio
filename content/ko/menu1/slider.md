@@ -1,18 +1,15 @@
 ---
 title: 'Your Page Title'
-widget: slider  # Use the Slider widget as this page section
-weight: 1  # Position of this section on the page
-active: true  # Publish this section?
 readingTime: 2  # 이 페이지의 전체 읽기 시간을 수동으로 설정
+widget: slider
+weight: 1
+active: true
 headless: true
 
 design:
-  # Slide height is automatic unless you force a specific height (e.g. '400px')
   slide_height: ''
   is_fullscreen: true
-  # Automatically transition through slides?
   loop: false
-  # Duration of transition between slides (in ms)
   interval: 2000
 
 content:
