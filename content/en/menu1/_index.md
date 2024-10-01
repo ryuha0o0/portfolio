@@ -1,5 +1,5 @@
 ---
-type: widget_page
+type: landing
 widget: slider  # Use the Slider widget as this page section
 weight: 1  # Position of this section on the page
 active: true  # Publish this section?
