@@ -1,9 +1,7 @@
 ---
-type: widget_page
 widget: slider  # Use the Slider widget as this page section
 weight: 1  # Position of this section on the page
 active: true  # Publish this section?
-headless: true  # This file represents a page section.dddd
 
 design:
   # Slide height is automatic unless you force a specific height (e.g. '400px')
@@ -23,7 +21,7 @@ content:
         position: right
         color: '#666'
         brightness: 0.7
-        media: coders.jpg
+        media: file1.jpg
         fit: cover
     - title: Lunch & Learn ☕️
       content: 'Share your knowledge with the group and explore exciting new topics together!'
@@ -32,7 +30,7 @@ content:
         position: center
         color: '#555'
         brightness: 0.7
-        media: contact.jpg
+        media: file2.jpg
         fit: cover
     - title: World-Class Semiconductor Lab
       content: 'Just opened last month!'
@@ -41,7 +39,7 @@ content:
         position: center
         color: '#333'
         brightness: 0.5
-        media: welcome.jpg
+        media: file3.jpg
         fit: cover
       link:
         icon: graduation-cap

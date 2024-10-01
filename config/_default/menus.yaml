@@ -34,9 +34,13 @@ main:
     weight: 31
   - name: bulletin
     parent: tags
-    url: project/menu1/
+    url: project/bulletin/
     weight: 31
 
   - name: Contact
     url: contact/
     weight: 40
+
+  - name: slider
+    url: menu1/
+    weight: 50
