@@ -1,50 +1,59 @@
 ---
-widget: slider  # Use the Slider widget as this page section
-weight: 1  # Position of this section on the page
-active: true  # Publish this section?
-headless: true  # This file represents a page section.dddd
+# Leave the homepage title empty to use the site title
+title: ""
+date: 2024-03-25
+type: landing
 
-design:
-  # Slide height is automatic unless you force a specific height (e.g. '400px')
-  slide_height: ''
-  is_fullscreen: true
-  # Automatically transition through slides?
-  loop: false
-  # Duration of transition between slides (in ms)
-  interval: 2000
+sections:
 
-content:
-  slides:
-    - title: 👋 Welcome to the group
-      content: Take a look at what we're working on...
-      align: center
-      background:
-        position: right
-        color: '#666'
-        brightness: 0.7
-        media: file1.jpg
-        fit: cover
-    - title: Lunch & Learn ☕️
-      content: 'Stick together!'
-      align: left
-      background:
-        position: center
-        color: '#555'
-        brightness: 0.7
-        media: file2.jpg
-        fit: cover
-    - title: World-Class Semiconductor Lab
-      content: 'Just opened last month!'
-      align: right
-      background:
-        position: center
-        color: '#333'
-        brightness: 0.5
-        media: file3.jpg
-        fit: cover
-      link:
-        icon: graduation-cap
-        icon_pack: fas
-        text: Join Us
-        url: ../contact/
+  - block: features
+    content:
+      title:
+      text: <br><span style="font-size:125%">MacsLAB에서는 의료, EMR, Vision, 항공, 국방 등 여러 분야에 AI 및 딥러닝을 활용한 연구를 수행하고 있으며, 의료 수학 및 AI 기반 연구도 함께 수행하고 있습니다. 뿐만 아니라, 풀스택 개발 및 AI를 활용한 어플리케이션 개발 등 Development & Deploy하는 실용적인 분야에도 집중하고 있습니다.</span>
+
+  - block: slider
+    content:
+      slides:
+
+        - title: <span style="font-size:90%">AI</span>
+          content: <span style="font-size:90%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:90%">
+          align: center
+          background:
+            image:
+              filename: file1.jpg
+              filters:
+                brightness: 0.4
+            position: center
+            color: '#000'
+
+        - title: <span style="font-size:90%">Medical AI</span>
+          content: <span style="font-size:90%">의료AI를 통한 질병 진단 및 환경 개선</span>
+          align: center
+          background:
+            image:
+              filename: file2.jpg
+              filters:
+                brightness: 0.4
+            position: center
+            color: '#000'
+
+        - title: <span style="font-size:90%">Healthcare</span>
+          content: <span style="font-size:90%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
+          align: center
+          background:
+            image:
+              filename: file3.jpg
+              filters:
+                brightness: 0.4
+            position: center
+            color: '#000'
+    design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: '350px'
+      is_fullscreen: true
+      # Automatically transition through slides?
+      loop: true
+      # Duration of transition between slides (in ms)
+      interval: 3000
+
 ---
