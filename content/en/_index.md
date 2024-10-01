@@ -35,7 +35,6 @@ sections:
   - block: slider
     content:
       slides:
-
       - title: <span style="font-size:90%">AI</span>
         content: <span style="font-size:90%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:90%">
         align: center
