@@ -46,4 +46,49 @@ content:
         icon_pack: fas
         text: Join Us
         url: ../contact/
+    - title: 👋 Welcome to the group
+      content: Take a look at what we're working on...
+      align: center
+      background:
+        position: right
+        color: '#666'
+        brightness: 0.7
+        media: file1.jpg
+        fit: cover
+    - title: 👋 Welcome to the group
+      content: Take a look at what we're working on...
+      align: center
+      background:
+        position: right
+        color: '#666'
+        brightness: 0.7
+        media: file1.jpg
+        fit: cover
+    - title: 👋 Welcome to the group
+      content: Take a look at what we're working on...
+      align: center
+      background:
+        position: right
+        color: '#666'
+        brightness: 0.7
+        media: file1.jpg
+        fit: cover
+    - title: 👋 Welcome to the group
+      content: Take a look at what we're working on...
+      align: center
+      background:
+        position: right
+        color: '#666'
+        brightness: 0.7
+        media: file1.jpg
+        fit: cover
+    - title: 👋 Welcome to the group
+      content: Take a look at what we're working on...
+      align: center
+      background:
+        position: right
+        color: '#666'
+        brightness: 0.7
+        media: file1.jpg
+        fit: cover
 ---
