@@ -25,7 +25,7 @@ content:
         media: file1.jpg
         fit: cover
     - title: Lunch & Learn ☕️
-      content: 'Share your knowledge with the group and explore exciting new topics together!'
+      content: 'Stick together!'
       align: left
       background:
         position: center
