@@ -30,6 +30,8 @@ sections:
           size: cover
           position: center
           parallax: false
+          
+
   - block: collection
     id: papers
     content:
@@ -41,6 +43,8 @@ sections:
     design:
       view: article-grid
       columns: 3
+      
+
   - block: collection
     content:
       title: Recent Publications
@@ -51,17 +55,6 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    content:
-      title: journal-article
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-      
   - block: collection
     id: talks
     content:
