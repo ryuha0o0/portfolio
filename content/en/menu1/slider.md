@@ -2,6 +2,7 @@
 widget: slider  # Use the Slider widget as this page section
 weight: 1  # Position of this section on the page
 active: true  # Publish this section?
+date: 2024-10-01
 
 design:
   # Slide height is automatic unless you force a specific height (e.g. '400px')
