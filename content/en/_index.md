@@ -30,43 +30,6 @@ sections:
           size: cover
           position: center
           parallax: false
-          
-
-  - block: slider
-    content:
-      slides:
-      - title: <span style="font-size:90%">AI</span>
-        content: <span style="font-size:90%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:90%">
-        align: center
-        background:
-          image:
-            filename: file1.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-      - title: <span style="font-size:90%">Medical AI</span>
-        content: <span style="font-size:90%">의료AI를 통한 질병 진단 및 환경 개선</span>
-        align: center
-        background:
-          image:
-            filename: file2.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
-
-      - title: <span style="font-size:90%">Healthcare</span>
-        content: <span style="font-size:90%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
-        align: center
-        background:
-          image:
-            filename: file3.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
 
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
