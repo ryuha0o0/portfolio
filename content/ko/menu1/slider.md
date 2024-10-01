@@ -21,77 +21,35 @@ content:
       content: Take a look at what we're working on...
       align: center
       background:
-        position: right
-        color: '#666'
-        brightness: 0.7
-        filename: file1.jpg
-        fit: cover
+        image:
+          filename: file1.jpg
+          filters:
+            brightness: 0.4
+        position: center
+        color: '#000'
     - title: Lunch & Learn ☕️
       content: 'Stick together!'
       align: left
       background:
+        image:
+          filename: file2.jpg
+          filters:
+            brightness: 0.4
         position: center
-        color: '#555'
-        brightness: 0.7
-        filename: file2.jpg
-        fit: cover
+        color: '#000'
     - title: World-Class Semiconductor Lab
       content: 'Just opened last month!'
       align: right
       background:
+        image:
+          filename: file3.jpg
+          filters:
+            brightness: 0.4
         position: center
-        color: '#333'
-        brightness: 0.5
-        filename: file3.jpg
-        fit: cover
+        color: '#000'
       link:
         icon: graduation-cap
         icon_pack: fas
         text: Join Us
         url: ../contact/
-    - title: 👋 Welcome to the group
-      content: Take a look at what we're working on...
-      align: center
-      background:
-        position: right
-        color: '#666'
-        brightness: 0.7
-        filename: file1.jpg
-        fit: cover
-    - title: 👋 Welcome to the group
-      content: Take a look at what we're working on...
-      align: center
-      background:
-        position: right
-        color: '#666'
-        brightness: 0.7
-        filename: file1.jpg
-        fit: cover
-    - title: 👋 Welcome to the group
-      content: Take a look at what we're working on...
-      align: center
-      background:
-        position: right
-        color: '#666'
-        brightness: 0.7
-        filename: file1.jpg
-        fit: cover
-    - title: 👋 Welcome to the group
-      content: Take a look at what we're working on...
-      align: center
-      background:
-        position: right
-        color: '#666'
-        brightness: 0.7
-        filename: file1.jpg
-        fit: cover
-    - title: 👋 Welcome to the group
-      content: Take a look at what we're working on...
-      align: center
-      background:
-        position: right
-        color: '#666'
-        brightness: 0.7
-        filename: file1.jpg
-        fit: cover
 ---
