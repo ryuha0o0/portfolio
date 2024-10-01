@@ -1,6 +1,6 @@
 ---
 title: 'Your Page Title'
-readingTime: 2  # 이 페이지의 전체 읽기 시간을 수동으로 설정
+showReadingTime: false
 widget: slider
 weight: 1
 active: true
@@ -10,7 +10,7 @@ design:
   slide_height: ''
   is_fullscreen: true
   loop: false
-  interval: 2000
+  interval: 200
 
 content:
   slides:
