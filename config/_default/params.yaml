@@ -64,3 +64,8 @@ features:
     provider: 'mapnik'
     api_key: ''
     zoom: 15
+  slider:
+    enable: true
+
+
+
