@@ -3,6 +3,12 @@
 title: ""
 date: 2022-10-24
 type: landing
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%88%98%EC%97%AD%EC%9D%98-%EC%A1%B0%EA%B0%90%EB%8F%84-_5fSqRPz-O0)'
+  focal_point: ""
+  preview_only: false
 
 design:
   # Default section spacing
