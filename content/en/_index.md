@@ -6,7 +6,7 @@ type: landing
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%88%98%EC%97%AD%EC%9D%98-%EC%A1%B0%EA%B0%90%EB%8F%84-_5fSqRPz-O0)'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%ED%95%B4%EB%B3%80%EC%9D%98-%EB%AC%BC-%EC%9C%84%EB%A1%9C-%ED%95%B4%EA%B0%80-%EC%A7%80%EA%B3%A0-%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4-VfCjGjpYl_4)'
   focal_point: ""
   preview_only: false
 
