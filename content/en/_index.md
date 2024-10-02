@@ -4,57 +4,17 @@ title: ""
 date: 2022-10-24
 type: landing
 
-widget: slider  # Use the Slider widget as this page section
-weight: 1  # Position of this section on the page
-active: true  # Publish this section?
-headless: true  # This file represents a page section.
-
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%ED%95%B4%EB%B3%80%EC%9D%98-%EB%AC%BC-%EC%9C%84%EB%A1%9C-%ED%95%B4%EA%B0%80-%EC%A7%80%EA%B3%A0-%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4-VfCjGjpYl_4)'
+  focal_point: ""
+  preview_only: true
+# Display this page in the Featured widget?
+featured: true
 design:
   # Default section spacing
   spacing: "6rem"
-  # Slide height is automatic unless you force a specific height (e.g. '400px')
-  slide_height: ''
-  is_fullscreen: true
-  # Automatically transition through slides?
-  loop: false
-  # Duration of transition between slides (in ms)
-  interval: 2000
-
-content:
-  slides:
-    - title: 👋 Welcome to the group
-      content: Take a look at what we're working on...
-      align: center
-      background:
-        position: right
-        color: '#666'
-        brightness: 0.7
-        media: file3.jpg
-        fit: cover
-    - title: Lunch & Learn ☕️
-      content: 'Share your knowledge with the group and explore exciting new topics together!'
-      align: left
-      background:
-        position: center
-        color: '#555'
-        brightness: 0.7
-        media: file1.jpg
-        fit: cover
-    - title: World-Class Semiconductor Lab
-      content: 'Just opened last month!'
-      align: right
-      background:
-        position: center
-        color: '#333'
-        brightness: 0.5
-        media: file2.jpg
-        fit: cover
-      link:
-        icon: graduation-cap
-        icon_pack: fas
-        text: Join Us
-        url: ../contact/
-
 
 sections:
   - block: resume-biography-3
