@@ -69,13 +69,4 @@ features:
   slider:
     enable: true
 
-params:
-  # Open Graph 설정
-  opengraph:
-    type: website
-    title: "My Website"
-    description: "This is my website description."
-    image: "assets/media/blackback.jpg"  # 대표 이미지 경로
-
-
 
