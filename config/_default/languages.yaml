@@ -7,13 +7,15 @@ en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
-  title: English website title...
-  params:
-    description: Site description in english...
+  title: hayoung's Portfolio
+  filename: 'blackback.jpg'
+  image: 'blackback.jpg'
+
+  description: 'gggggg'
     # Open Graph 설정
-    opengraph:
-      type: website
-      filename: "blackback.jpg"  # 대표 이미지 경로
+  opengraph:
+    type: website
+    filename: 'blackback.jpg'  # 대표 이미지 경로
 
 # Uncomment the lines below to configure your website in a second language.
 ko:
