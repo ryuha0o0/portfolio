@@ -19,19 +19,19 @@ en:
       weight: 10
 
     - name: Experience
-      url: experience/en/
+      url: en/experience/
       weight: 20
 
     - name: Papers
-      url: /#paper/en
+      url: /en/#paper
       weight: 11
 
     - name: Talks
-      url: /#talks/en
+      url: /en/#talks
       weight: 12
 
     - name: My post
-      url: /#news/en
+      url: /en/#news
       weight: 13
 
     - name: Projects
