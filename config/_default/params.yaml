@@ -72,6 +72,6 @@ params:
   # Open Graph 설정
   opengraph:
     type: website
-    image: "blackback.jpg"  # 대표 이미지 경로
+    image: "/blackback.jpg"  # 대표 이미지 경로
 
 
