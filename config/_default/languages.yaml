@@ -15,23 +15,23 @@ en:
       image: "/blackback.jpg"  # 대표 이미지 경로
   manu:
     - name: Bio
-      url: en/
+      url: /en/
       weight: 10
 
     - name: Experience
-      url: en/experience/
+      url: experience/en/
       weight: 20
 
     - name: Papers
-      url: /en/#papers
+      url: /#paper/en
       weight: 11
 
     - name: Talks
-      url: /en/#talks
+      url: /#talks/en
       weight: 12
 
     - name: My post
-      url: /en/#news
+      url: /#news/en
       weight: 13
 
     - name: Projects
