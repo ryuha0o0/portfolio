@@ -12,7 +12,8 @@ design:
   loop: true
   # Duration of transition between slides (in ms)
   interval: 2000
-content:
+section:
+  content:
   slides:
     - title: 👋 Welcome to the group
       content: Take a look at what we're working on...
