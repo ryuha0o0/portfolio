@@ -10,6 +10,10 @@ en:
   title: English website title...
   params:
     description: Site description in english...
+    # Open Graph 설정
+    opengraph:
+      type: website
+      image: "assets/media/blackback.jpg"  # 대표 이미지 경로
 
 # Uncomment the lines below to configure your website in a second language.
 ko:
