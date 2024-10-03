@@ -73,5 +73,7 @@ params:
   opengraph:
     type: website
     image: "/blackback.jpg"  # 대표 이미지 경로
+    favicon: "/images/favicon.ico"  # 파비콘 파일의 경로
+
 
 
