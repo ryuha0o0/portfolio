@@ -13,46 +13,46 @@ en:
     opengraph:
       type: website
       image: "/blackback.jpg"  # 대표 이미지 경로
-  manu:
-    - name: Bio
-      url: /en/
-      weight: 10
+    manu:
+      - name: Bio
+        url: /
+        weight: 10
 
-    - name: Experience
-      url: en/experience/
-      weight: 20
+      - name: Experience
+        url: experience/
+        weight: 20
 
-    - name: Papers
-      url: /en/#paper
-      weight: 11
+      - name: Papers
+        url: /#paper
+        weight: 11
 
-    - name: Talks
-      url: /en/#talks
-      weight: 12
+      - name: Talks
+        url: /#talks
+        weight: 12
 
-    - name: My post
-      url: /en/#news
-      weight: 13
+      - name: My post
+        url: /#news
+        weight: 13
 
-    - name: Projects
-      identifier: tags
-      weight: 30
-    - name: NORTH
-      parent: tags
-      url: en/project/north/
-      weight: 31
-    - name: bulletin
-      parent: tags
-      url: en/project/bulletin/
-      weight: 31
+      - name: Projects
+        identifier: tags
+        weight: 30
+      - name: NORTH
+        parent: tags
+        url: en/project/north/
+        weight: 31
+      - name: bulletin
+        parent: tags
+        url: en/project/bulletin/
+        weight: 31
 
-    - name: Contact
-      url: en/contact/
-      weight: 40
+      - name: Contact
+        url: en/contact/
+        weight: 40
 
-    - name: slider
-      url: en/slides/
-      weight: 50
+      - name: slider
+        url: en/slides/
+        weight: 50
 
 # Uncomment the lines below to configure your website in a second language.
 ko:
