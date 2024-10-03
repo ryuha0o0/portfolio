@@ -16,7 +16,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'hahahyoung'
+    description: 'This page is hayoungs portfolio'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -68,5 +68,10 @@ features:
     zoom: 15
   slider:
     enable: true
+params:
+  # Open Graph 설정
+  opengraph:
+    type: website
+    image: "blackback.jpg"  # 대표 이미지 경로
 
 
