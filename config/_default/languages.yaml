@@ -13,6 +13,47 @@ en:
     opengraph:
       type: website
       image: "/blackback.jpg"  # 대표 이미지 경로
+  manu:
+    - name: Bio
+      url: /
+      weight: 10
+
+    - name: Experience
+      url: experience/
+      weight: 20
+
+    - name: Papers
+      url: /#papers
+      weight: 11
+
+    - name: Talks
+      url: /#talks
+      weight: 12
+
+    - name: My post
+      url: /#news
+      weight: 13
+
+
+    - name: Projects
+      identifier: tags
+      weight: 30
+    - name: NORTH
+      parent: tags
+      url: project/north/
+      weight: 31
+    - name: bulletin
+      parent: tags
+      url: project/bulletin/
+      weight: 31
+
+    - name: Contact
+      url: contact/
+      weight: 40
+
+    - name: slider
+      url: slides/
+      weight: 50
 
 # Uncomment the lines below to configure your website in a second language.
 ko:
@@ -21,40 +62,3 @@ ko:
   title: hayoung's korean website title...
   params:
     description: Site description in korean...
-  menu:
-    main:
-      - name: Bio
-        url: ko/
-        weight: 10
-
-      - name: 기사
-        url: ko/#papers
-        weight: 11
-
-      - name: Talks
-        url: ko/#talks
-        weight: 12
-
-      - name: 뉴스
-        identifier: news
-        weight: 13
-      - name: conference-paper
-        parent: news
-        url: publication/conference-paper
-        weight: 14
-
-      - name: 활동경력
-        url: experience/
-        weight: 20
-
-      - name: 프로젝트
-        identifier: tags
-        weight: 30
-      - name: NORTH
-        parent: tags
-        url: project/north/
-        weight: 31
-
-      - name: Teaching
-        url: teaching/
-        weight: 40
