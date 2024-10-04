@@ -15,7 +15,7 @@ en:
       image: "/blackback.jpg"  # 대표 이미지 경로
     manu:
       - name: Bio
-        url: /
+        url: /ko/
         weight: 10
 
       - name: Experience
